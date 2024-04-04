@@ -2,7 +2,7 @@ import React from 'react'
 import DesktopLogo from './icons/DesktopLogo'
 import { Link, NavLink } from 'react-router-dom'
 import MobileLogo from './icons/MobileLogo'
-import { CiMenuFries } from "react-icons/ci";
+import { RiMenu2Line } from "react-icons/ri";
 
 const NavBar = () => {
   return (
@@ -11,7 +11,7 @@ const NavBar = () => {
         <DesktopLogo />
         <MobileLogo />
       </Link>
-      <NavLink to={'/'} className={'block md:hidden'}><CiMenuFries /></NavLink>
+      <NavLink to={'/'} className={' text-lg block md:hidden'}><RiMenu2Line /></NavLink>
       <NavLink to={'/'} className={'hidden md:block'}>Countries</NavLink>
     </div>
   )

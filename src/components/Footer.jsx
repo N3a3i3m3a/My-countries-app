@@ -9,7 +9,7 @@ const Footer = () => {
       <SectionHolder className='gap-4'>
         <MobileLogo />
         <DesktopLogo />
-        <p className='text-gray-500'>Copyright &copy; {new Date().getFullYear()}. All rights reserved - SheCanCODE Front-end Cohort #10</p>
+        <p className='text-gray-500'>Copyright &copy; {new Date().getFullYear()}. All rights reserved</p>
       </SectionHolder>
     </footer>
   )
